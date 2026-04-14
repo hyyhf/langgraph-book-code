@@ -3,10 +3,11 @@
 <img src="assets/header_banner.svg" alt="LangGraph AI智能体开发实战配套代码">
 
 <p>
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.12+-F3D8A2.svg?style=for-the-badge&logo=python&logoColor=4A3B2C" alt="Python 3.12+"></a>
-  <a href="https://github.com/langchain-ai/langgraph"><img src="https://img.shields.io/badge/LangGraph-Latest-DDB88B.svg?style=for-the-badge&logo=ai&logoColor=4A3B2C" alt="LangGraph"></a>
-  <a href="https://github.com/langchain-ai/langchain"><img src="https://img.shields.io/badge/LangChain-Ecosystem-A67F54.svg?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"></a>
-  <a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/badge/uv-Lightning%20Fast-6D5741.svg?style=for-the-badge&logo=peertube&logoColor=white" alt="uv"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.12+-F3D8A2.svg?style=for-the-badge&logo=python" alt="Python 3.12+"></a>
+  <a href="https://github.com/langchain-ai/langgraph"><img src="https://img.shields.io/badge/LangGraph-1.1.3-DDB88B.svg?style=for-the-badge&logo=langgraph" alt="LangGraph"></a>
+  <a href="https://github.com/langchain-ai/langchain"><img src="https://img.shields.io/badge/LangChain-1.2.13-A67F54.svg?style=for-the-badge&logo=langchain" alt="LangChain"></a>
+  <a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/badge/uv-Lightning%20Fast-6D5741.svg?style=for-the-badge&logo=uv" alt="uv"></a>
+  <a href="https://github.com/hyyhf/langgraph-book-code"><img src="https://img.shields.io/github/stars/hyyhf/langgraph-book-code?style=for-the-badge&color=DDB88B&logo=github" alt="GitHub stars"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-4A3B2C.svg?style=for-the-badge" alt="License: MIT"></a>
 </p>
 
