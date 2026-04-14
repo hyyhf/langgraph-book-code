@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "calculator": {
+      "command": "uv",
+      "args": ["run", "python", "server/stdio_server.py"],
+      "env": {}
+    },
+    "weather": {
+      "url": "http://127.0.0.1:8000/mcp",
+      "transport": "http"
+    },
+    "amap": {
+      "url": "https://mcp.amap.com/mcp?key=c095e317f6194fa3209675df340aa8e0",
+      "transport": "http"
+    }
+  }
+}
+

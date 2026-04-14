@@ -1,0 +1,23 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	planner(planner)
+	tools(tools)
+	review(review)
+	html_generator(html_generator)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> planner;
+	planner -.-> review;
+	planner -.-> tools;
+	review -. &nbsp;generate_html&nbsp; .-> html_generator;
+	review -. &nbsp;replan&nbsp; .-> planner;
+	tools --> planner;
+	html_generator --> __end__;
+	planner -. &nbsp;continue&nbsp; .-> planner;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

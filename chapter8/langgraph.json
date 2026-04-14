@@ -1,0 +1,8 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "book_trade": "./8_2_studio_visualization.py:graph",
+        "activity_recommender": "./8_3_advanced_tracing.py:graph"
+    },
+    "env": "../.env"
+}
