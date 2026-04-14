@@ -14,7 +14,7 @@
 
 本项目包含了《LangGraph AI智能体开发实战》一书的所有配套代码。为方便读者学习与运行，所有代码均按章节进行组织。**除了第1章和第13章以理论为主没有代码外，其他章节的实战代码均存放在对应的文件夹当中。**
 
----
+<div align="center"><img src="assets/divider.svg" alt="divider"></div>
 
 ## 书籍简介
 
@@ -31,8 +31,8 @@
         <br>
         <h3>书籍电子版封面</h3>
         <br>
-        <img src="assets/ebook_cover.png" alt="书籍封面" width="380">
-        <br><br><br>
+        <img src="assets/ebook_cover.png" alt="书籍封面" width="550">
+        <br><br>
         <h4>全书目录</h4>
         <br>
         <p>
@@ -52,7 +52,7 @@
   </table>
 </p>
 
----
+<div align="center"><img src="assets/divider.svg" alt="divider"></div>
 
 ## 章节代码与运行指南
 
@@ -72,7 +72,7 @@
 | **第11章** | 代码开发工具实战 | 实现“代码工程师”，包含自动化的代码生成、安全测试、错误捕获与修复回环，同时包含了图结构的可视化输出。 | `cd chapter11 && uv run test_all.py` |
 | **第12章** | 复杂环境规划实战 | 构建“武汉旅行规划师”，结合本地 POI 知识库，利用动态状态管理与高频“人在环路”沟通，完成多轮对话式的复杂行程规划。 | `cd chapter12 && uv run main.py` |
 
----
+<div align="center"><img src="assets/divider.svg" alt="divider"></div>
 
 ## 快速开始
 
@@ -124,7 +124,7 @@ uv run chapter5_hellolangraph/chapter5_hello_langgraph.py
 
 如果你在运行中对任何概念或代码实现机制有疑惑，请随时回归书籍相关章节。代码中的系统注释也与书中内容做到了充分互补，祝你实践愉快！
 
----
+<div align="center"><img src="assets/divider.svg" alt="divider"></div>
 
 ## 出版与开源计划
 

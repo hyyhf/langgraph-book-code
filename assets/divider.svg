@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="100%" height="80px">
+  <defs>
+    <!-- Ivory White (#FDF7E7) & Apricot Yellow (#FFA631) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDF7E7" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#FDF7E7" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FDF7E7" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#FDF7E7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FDF7E7" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFA631" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FFA631" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFA631" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#FFA631" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFA631" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Classic Huiwen (回纹) abstract pattern -->
+    <pattern id="huiwen" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="scale(0.8)">
+      <path d="M 0,7.5 H 22.5 V 30" fill="none" stroke="#FFA631" stroke-width="1.5" stroke-opacity="0.5"/>
+      <path d="M 7.5,15 H 15 V 22.5 H 7.5 Z" fill="none" stroke="#FFA631" stroke-width="2" stroke-opacity="0.4"/>
+      <path d="M 30,7.5 H 30 V 0 H 7.5 V 7.5" fill="none" stroke="#FFA631" stroke-width="1.5" stroke-opacity="0.5"/>
+    </pattern>
+
+    <!-- Ruyi Cloud (如意云纹) motif -->
+    <g id="cloud">
+      <path d="M0,10 C-21,10 -38,-4 -30,-17 C-25,-24 -17,-25 -8,-21 C-4,-19 -2,-13 0,-8 C2,-13 4,-19 8,-21 C17,-25 25,-24 30,-17 C38,-4 21,10 0,10 Z" fill="#FDF7E7" stroke="#FFA631" stroke-width="2"/>
+      <path d="M0,10 C-13,25 -25,21 -21,8" fill="none" stroke="#FFA631" stroke-width="2" stroke-linecap="round"/>
+      <path d="M0,10 C13,25 25,21 21,8" fill="none" stroke="#FFA631" stroke-width="2" stroke-linecap="round"/>
+      <path d="M0,-8 C-8,-25 8,-25 0,-8" fill="none" stroke="#FFA631" stroke-width="1.5"/>
+      <circle cx="-15" cy="-7" r="2.5" fill="#FFA631"/>
+      <circle cx="15" cy="-7" r="2.5" fill="#FFA631"/>
+      <circle cx="0" cy="2" r="2.5" fill="#FFA631"/>
+    </g>
+  </defs>
+
+  <!-- Core Base -->
+  <rect x="50" y="25" width="900" height="30" fill="url(#bgGrad)"/>
+  <rect x="50" y="25" width="900" height="30" fill="url(#huiwen)"/>
+
+  <!-- Elegant Top and Bottom Trim Lines -->
+  <rect x="50" y="21" width="900" height="2" fill="url(#lineGrad)"/>
+  <rect x="50" y="57" width="900" height="2" fill="url(#lineGrad)"/>
+  <rect x="150" y="25" width="700" height="0.5" fill="url(#lineGrad)" opacity="0.6"/>
+  <rect x="150" y="54" width="700" height="0.5" fill="url(#lineGrad)" opacity="0.6"/>
+
+  <!-- Flowing Cloud Lines extending outward -->
+  <path d="M410,40 Q380,40 350,25 T250,40" fill="none" stroke="url(#lineGrad)" stroke-width="2"/>
+  <path d="M590,40 Q620,40 650,25 T750,40" fill="none" stroke="url(#lineGrad)" stroke-width="2"/>
+  
+  <path d="M410,40 Q380,40 350,55 T250,40" fill="none" stroke="url(#lineGrad)" stroke-width="2"/>
+  <path d="M590,40 Q620,40 650,55 T750,40" fill="none" stroke="url(#lineGrad)" stroke-width="2"/>
+
+  <!-- Central Crest Background -->
+  <circle cx="500" cy="40" r="35" fill="#FDF7E7" stroke="#FFA631" stroke-width="2"/>
+  <circle cx="500" cy="40" r="28" fill="none" stroke="#FFA631" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Center Ruyi Motif Placement -->
+  <use href="#cloud" x="500" y="42" />
+
+</svg>
