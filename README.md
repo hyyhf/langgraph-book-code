@@ -1,12 +1,6 @@
-<div align="center" style="background: linear-gradient(135deg, #FBF8F1 0%, #F5DEB3 100%); padding: 45px 20px; border-radius: 12px; border: 1px solid #DDB88B; box-shadow: 0 8px 20px rgba(221, 184, 139, 0.25); margin-bottom: 25px;">
+<div align="center">
 
-<h1 style="color: #4A3B2C; margin-top: 0; padding-bottom: 12px; text-shadow: 1px 1px 0px rgba(255,255,255,0.7); font-weight: bold; letter-spacing: 1px; border-bottom: none;">
-  《LangGraph AI智能体开发实战》配套代码
-</h1>
-
-<p style="color: #6D5741; font-size: 1.1em; letter-spacing: 1.5px; opacity: 0.9; margin-bottom: 30px;">
-  这是一本专注于大语言模型时代 AI Agent 开发的实战指南。
-</p>
+<img src="assets/header_banner.svg" alt="LangGraph AI智能体开发实战配套代码">
 
 <p>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.12+-F3D8A2.svg?style=for-the-badge&logo=python&logoColor=4A3B2C" alt="Python 3.12+"></a>
@@ -30,28 +24,33 @@
 3. **多智能体与高阶控制**：全面涵盖如何利用 LangSmith 调试系统，同时探讨多智能体(Multi-agent)的网络化、监督者及层级协作架构。
 4. **实战落地**：通过三大核心项目——“行业调研专家”、“代码工程师”与“旅行规划师”，将理论融会贯通，带领读者完成从 Context Engineering 到 Harness Engineering 的思维与工程范式转换（本书在部分章节有提到关于harness的实践细节，但由于篇幅限制，没有完全展开，期待下一本书）。
 
-<div align="center" style="background: linear-gradient(135deg, #FBF8F1 0%, #F5DEB3 100%); padding: 30px; border-radius: 12px; border: 1px solid #DDB88B; margin-top: 30px; margin-bottom: 10px;">
-
-<h3 style="color: #4A3B2C; margin-top: 0; margin-bottom: 25px; font-weight: bold; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;">书籍视觉概览</h3>
-
-<img src="assets/ebook_cover.png" alt="书籍封面" width="380" style="border: 1px solid #DDB88B; border-radius: 6px; box-shadow: 0 8px 20px rgba(109, 87, 65, 0.2); margin-bottom: 30px;">
-
-<div style="border-top: 1px dashed rgba(109, 87, 65, 0.3); padding-top: 20px; margin-top: 10px;">
-  <h4 style="color: #6D5741; margin-bottom: 20px; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;">全书目录</h4>
-  <p>
-    <img src="assets/toc1.png" alt="目录1" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">&nbsp;
-    <img src="assets/toc2.png" alt="目录2" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">&nbsp;
-    <img src="assets/toc3.png" alt="目录3" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">&nbsp;
-    <img src="assets/toc4.png" alt="目录4" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">
-  </p>
-  <p>
-    <img src="assets/toc5.png" alt="目录5" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">&nbsp;
-    <img src="assets/toc6.png" alt="目录6" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">&nbsp;
-    <img src="assets/toc7.png" alt="目录7" width="23%" style="border: 1px solid #DDB88B; border-radius: 4px; box-shadow: 0 2px 8px rgba(109, 87, 65, 0.15);">
-  </p>
-</div>
-
-</div>
+<p align="center">
+  <table width="100%">
+    <tr>
+      <td align="center" bgcolor="#FDF7E7">
+        <br>
+        <h3>书籍电子版封面</h3>
+        <br>
+        <img src="assets/ebook_cover.png" alt="书籍封面" width="380">
+        <br><br><br>
+        <h4>全书目录</h4>
+        <br>
+        <p>
+          <img src="assets/toc1.png" alt="目录1" width="23%">&nbsp;
+          <img src="assets/toc2.png" alt="目录2" width="23%">&nbsp;
+          <img src="assets/toc3.png" alt="目录3" width="23%">&nbsp;
+          <img src="assets/toc4.png" alt="目录4" width="23%">
+        </p>
+        <p>
+          <img src="assets/toc5.png" alt="目录5" width="23%">&nbsp;
+          <img src="assets/toc6.png" alt="目录6" width="23%">&nbsp;
+          <img src="assets/toc7.png" alt="目录7" width="23%">
+        </p>
+        <br>
+      </td>
+    </tr>
+  </table>
+</p>
 
 ---
 

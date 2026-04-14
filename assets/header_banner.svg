@@ -1,0 +1,21 @@
+<svg width="800" height="160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F1"/>
+      <stop offset="100%" stop-color="#F5DEB3"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#DDB88B" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect x="20" y="20" width="760" height="120" rx="12" fill="url(#bg-gradient)" stroke="#DDB88B" stroke-width="1.5" filter="url(#shadow)"/>
+  
+  <text x="400" y="70" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="bold" font-size="28" fill="#4A3B2C" text-anchor="middle" letter-spacing="1">
+    《LangGraph AI智能体开发实战》配套代码
+  </text>
+  
+  <text x="400" y="105" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#6D5741" text-anchor="middle" letter-spacing="2">
+    这是一本专注于大语言模型时代 AI Agent 开发的实战指南
+  </text>
+</svg>
